@@ -1,0 +1,47 @@
+ RAPPORT SIG
+Projet : PlantEvo-Viewer
+
+1. AUTEUR
+
+Prénoms et Nom : BENE AXEL JUNIOR  
+Période du projet : Du 16 au 23 novembre 2026
+
+2. CONTEXTE
+
+Le projet PlantEvo-Viewer s'inscrit dans le cadre de la réalisation d'une présentation sur l'évolution des végétaux. Il consiste à créer un site web interactif destiné à tous, permettant de comprendre comment et pourquoi les végétaux ont progressivement colonisé les différents milieux de vie.
+
+Dans le cadre de ce projet, le volet SIG (Système d'Information Géographique) permet de localiser géographiquement les différentes espèces végétales observées sur le terrain et de représenter leurs positions sur une carte.
+
+3. OBJECTIF
+
+L'objectif de ce travail est de relever les coordonnées géographiques des différentes espèces végétales observées à l'aide du GPS, puis de représenter leurs positions sur une carte afin de faciliter leur localisation et leur identification.
+
+ 4. MÉTHODE ET OUTILS DE COLLECTE
+
+- Outil utilisé : Application de collecte GPS : https://safari-botanique-e3.vercel.app
+- Système de coordonnées : Coordonnées géographiques exprimées en latitude et longitude décimales.
+- Précision GPS : Valeurs de précision relevées sur le terrain et consignées dans le tableau.
+- Procédure de collecte : Se placer à proximité de la plante, attendre la stabilisation de la position GPS, puis enregistrer les informations relatives à chaque observation. Ces informations comprennent l'identifiant (ID), le groupe végétal, le nom de l'espèce, les coordonnées géographiques, la date, l'heure et les photographies prises sur le site d'observation.
+
+5. RELEVÉ DES POSITIONS GÉOGRAPHIQUES
+
+Les différentes observations végétales ont été géolocalisées sur le terrain. Les coordonnées obtenues sont présentées dans le tableau suivant.
+
+| ID | Groupe végétal | Espèce observée | Longitude | Latitude | Précision (m) |
+|---|---|---|---:|---:|---:|
+| E8-01 | Fougères | Fougère épiphyte | -5.225756 | 6.890885 | 3 |
+| E8-02 | Mousses | Inconnue | -5.225756 | 6.890886 | 3 |
+| E8-03 | Algues | Algue verte filamenteuse | -5.225652 | 6.891263 | 2 |
+| E8-04 | Graminées | Megathyrsus | -5.225896 | 6.891645 | 3 |
+| E8-05 | Dicotylédones | Senna sp. | -5.226565 | 6.890294 | 2 |
+| E8-06 | Conifères | Cupressus | -5.224527 | 6.891367 | 3 |
+
+ 6. RÉSULTATS ET EXPLOITATION DES DONNÉES
+
+La collecte a permis de géolocaliser six observations appartenant à six groupes végétaux : les algues, les mousses, les fougères, les conifères, les graminées et les dicotylédones.
+Les coordonnées géographiques obtenues permettent de situer chaque observation dans l'espace. Elles pourront être intégrées dans un système d'information géographique (SIG) afin de réaliser une carte de répartition des espèces observées.
+Cette représentation cartographique facilitera la visualisation des différents points de collecte et permettra de retrouver plus facilement les lieux d'observation.
+7. CONCLUSION
+Ce travail de collecte géographique réalisé dans le cadre du projet PlantEvo-Viewer nous a permis de mettre en pratique les notions de géolocalisation et de collecte de données spatiales.
+Grâce à l'application GPS utilisée sur le terrain, nous avons pu relever les coordonnées géographiques de six observations végétales appartenant à différents groupes. Ces données constituent une base pour la réalisation d'une carte permettant de visualiser la répartition spatiale des espèces observées.
+Ce travail nous a ainsi permis de comprendre l'importance des outils SIG dans la collecte, l'organisation et la représentation des données environnementales.
