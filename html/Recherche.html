@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantEvo Viewer - Recherche</title>
+   <link rel="stylesheet" href="../css/style.css">
+   </head>
+   
+   <body class="fond-recherche">
+    <header class="entete">
+        <img class="logo" src="../images/Logo.png" alt="Logo PlantEvo viewer">
+
+    <!--les 3 boutons, chaque bouton est un lien vers une autre page.-->
+    <nav class="navigation">
+        <a class="bouton-nav" href="Accueil.html">Accueil</a>
+         <a class="bouton-nav" href="Menu.html">Explorer le Menu</a>
+         <a class="bouton-nav actif" href="Recherche.html">Recherche</a>
+    </nav>
+</header>
+
+<main class="recherche">
+    <h1 class="titre-recherche">Recherche</h1>
+    <label class="etiquette" for="champ-recherche">Tape le nom d'un groupe de plantes :</label>
+    <input class="champ-recherche" type="search" id="champ-recherche" name="recherche"
+           list="groupes" placeholder="Exemple : Fougères">
+
+           
+        <datalist id="groupes">
+            <option value="Algues">
+            <option value="Mousses">
+            <option value="Fougères">
+            <option value="Conifères">
+            <option value="Graminées">
+            <option value="Dicotylédones">
+        </datalist>
+
+        <!-- La liste des groupes : un clic sur un nom ouvre sa page.
+             <ul> = la liste, <li> = un élément de la liste. -->
+        <h2 class="titre-liste">Ou choisis directement un groupe :</h2>
+        <ul class="liste-liens">
+            <li><a class="lien-groupe" href="Algues.html">Algues</a></li>
+            <li><a class="lien-groupe" href="Mousses.html">Mousses</a></li>
+            <li><a class="lien-groupe" href="Fougères.html">Fougères</a></li>
+            <li><a class="lien-groupe" href="Conifères.html">Conifères</a></li>
+            <li><a class="lien-groupe" href="Graminées.html">Graminées</a></li>
+            <li><a class="lien-groupe" href="Dicotylédones.html">Dicotylédones</a></li>
+        </ul>
+    </main>
+
+    <div class="zone-retour">
+        <a class="bouton-retour" href="Menu.html">Retour au Menu</a>
+    </div>
+
+</body>
+</html>
